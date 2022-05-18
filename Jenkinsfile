@@ -9,7 +9,7 @@ stages {
  stage("Code Checkout from github") {
   steps {
    git branch: 'main',
-    url: 'https://github.com/eyaboubaker/maven_pipeline_project.git'
+    url: 'https://github.com/oumaima-boubaker/maven_pipeline_project.git'
   }
  }
        stage ('Compile Stage') {
