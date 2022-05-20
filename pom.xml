@@ -64,6 +64,7 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+	       
 
 		<!-- provided dependencies -->
 
@@ -102,6 +103,12 @@
             <version>1.18.22</version>
             <scope>provided</scope>
     </dependency>
+	       <!-- http://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+         <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+         </dependency>
 	</dependencies>
   <distributionManagement>
         <repository>
