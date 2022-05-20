@@ -68,7 +68,7 @@ stages {
                 ], 
                          credentialsId: 'jenkins-nexus', 
                          groupId: "${readPom.groupId}", 
-                         nexusUrl: '192.168.100.180:8081', 
+                         nexusUrl: '192.168.1.46:8081', 
                          nexusVersion: 'nexus3', 
                          protocol: 'http', 
                          repository: "${nexusrepo}", 
