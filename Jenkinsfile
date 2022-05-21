@@ -45,7 +45,7 @@ stages {
             steps
          {
             
-                waitForQualityGate abortPipeline: true, credentialsId: 'SONARQUBE_TOKEN'
+                waitForQualityGate abortPipeline: true, credentialsId: 'SONARQUBE_TOKEN1'
             
          }
      }
