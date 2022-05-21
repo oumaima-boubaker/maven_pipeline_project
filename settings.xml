@@ -10,7 +10,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                onar.projectKey=my:project
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
                   http://localhost:9000
